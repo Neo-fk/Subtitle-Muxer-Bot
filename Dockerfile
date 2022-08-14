@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND="noninteractive"
 RUN apt update -y && \
         apt install software-properties-common -y && \
         add-apt-repository ppa:deadsnakes/ppa -y && \
-        apt install python3.9 python3-pip -y
+        apt install python3.9.9 python3-pip -y
 
 RUN apt update -y && \
         apt install ffmpeg -y
