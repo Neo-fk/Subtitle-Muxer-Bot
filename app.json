@@ -1,14 +1,14 @@
 {
     "scripts": {},
     "env": {
-        "API_HASH": "15fef151e5621618886de29b1fa40d9c",
-        "APP_ID": "17729587",
-        "BOT_TOKEN": "5207123499:AAG6QCLNSMBVag-hjOmseFWaUUoFbNYMe5c",
-        "DATABASE_URL": "mongodb+srv://waterscorbin:waterscorbin@cluster0.0tygn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-        "LOG_CHANNEL": "-1001700399331",
-        "OWNER_ID": "831054990",
-        "SESSION_NAME": "jdsubmuxer",
-        "UPDATES_CHANNEL": "-1001700399331"
+        "API_HASH": "",
+        "APP_ID": "",
+        "BOT_TOKEN": "",
+        "DATABASE_URL": "",
+        "LOG_CHANNEL": "",
+        "OWNER_ID": "",
+        "SESSION_NAME": "",
+        "UPDATES_CHANNEL": ""
     },
     "formation": {
         "worker": {
@@ -16,11 +16,6 @@
         }
     },
     "addons": [],
-    "buildpacks": [{
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }, {
-            "url": "heroku/python"
-        }
-    ],
-    "stack": "heroku-20"
+    "buildpacks": [],
+    "stack": "container"
 }
