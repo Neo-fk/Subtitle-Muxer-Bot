@@ -19,4 +19,4 @@ RUN apt install ffmpeg -y
 
 COPY . .
 
-CMD [ "bash", "start.sh ]
+CMD ["bash", "start.sh"]
